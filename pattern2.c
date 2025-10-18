@@ -17,7 +17,7 @@ int main() {
             printf("* ");
         }
         for(int j=(n-i)*2; j>2; j--){
-            printf("- ");
+            printf("  ");
         }
         for(int j=0; j<=i; j++){
             printf("* ");
@@ -29,7 +29,7 @@ int main() {
             printf("* ");
         }
         for(int j=(n-i)*2; j>0; j--){
-            printf("- ");
+            printf("  ");
         }
         for(int j=1; j<=i; j++){
             printf("* ");
